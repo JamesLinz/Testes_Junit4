@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: com.teste.AssertTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec <<< FAILURE!
+com.teste.AssertTest.testAssertSame()  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.teste.AssertTest.testAssertSame(AssertTest.java:50)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 19 more
+
+com.teste.AssertTest.testAssertFalse()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.teste.AssertTest.testAssertFalse(AssertTest.java:29)
+
+com.teste.AssertTest.testAssertEquals()  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.teste.AssertTest.testAssertEquals(AssertTest.java:24)
+
+com.teste.AssertTest.testAssertNotNull()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.teste.AssertTest.testAssertNotNull(AssertTest.java:34)
+
+com.teste.AssertTest.testAssertNull()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.teste.AssertTest.testAssertNull(AssertTest.java:44)
+
+com.teste.AssertTest.testAssertNotSame()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.teste.AssertTest.testAssertNotSame(AssertTest.java:39)
+
+com.teste.AssertTest.testAssertArrayEquals()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.teste.AssertTest.testAssertArrayEquals(AssertTest.java:19)
+
